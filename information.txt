@@ -1,0 +1,28 @@
+//Class-based components
+1) React app preffered functional based components
+2) But it started with class-based component
+3)'this' will be use to refer to the class instances
+
+//State 
+1) Constructor can be used to set state aswell
+2) we use state when we change again and again
+3) Props cant be change usually
+
+//Component lifecycle
+1)mounting refers to birth of component,update refers to growth,unmounting refers to death
+2)lifecycle is series of events between this
+3)render() is used to render html component in react,cant modify state in it
+4)compnentDidMount(),runs after component output has been render to dom
+5)compnentDidUpdate(), runs when update occurs,such as prop or state changes,force updates
+6)componentWillUnmount(), called just before component is destroyed,cleanups
+7) constructor runs before mounting
+
+//REACT HOOKS
+1)Features of class-based components in function-based components
+2)React Hooks are special functions that allow you to "hook into" React's features, like state and lifecycle methods, directly from functional components. 
+3)In coding, a "hook" refers to a mechanism that allows a program to intercept, modify, or extend the behavior of another part of the code or system.
+4)usestate,a fundamental feature in React that allows functional components to manage and update their internal state. It enables functional components to have stateful behavior, similar to what was previously only possible with class components using this.state.We can update state and set an initial value
+5)useeffect,allows functional components to perform "side effects." Side effects are operations that interact with the outside world or have a lasting impact beyond the component's immediate rendering.Do what we do using componentDidMount
+6)useRef, built-in feature that allows you to create a mutable reference that persists across component re-renders. It returns an object with a single property called current, which can hold any mutable value, including DOM elements, numbers, strings, or objects. 
+7)
+8)
