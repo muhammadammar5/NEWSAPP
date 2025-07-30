@@ -34,3 +34,7 @@
 𝟐. ** 𝐈𝐧𝐬𝐭𝐚𝐥𝐥 𝐝𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐢𝐞𝐬
    npm install 
    npm run
+𝟑. ** 𝐎𝐩𝐭𝐢𝐨𝐧𝐚𝐥
+   Replace YOUR_API_KEY in the source code with your News API key.
+
+
